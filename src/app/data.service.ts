@@ -8,7 +8,7 @@ import { fn } from '@angular/compiler/src/output/output_ast';
   providedIn: 'root'
 })
 export class DataService {
-  private serverAddress:string = "http://localhost:3000/";
+  private serverAddress:string = "https://adept-server.herokuapp.com/";
   private signedIn = false;
 
   constructor(private http: HttpClient) { }
